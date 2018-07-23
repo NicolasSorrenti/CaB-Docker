@@ -1,0 +1,73 @@
+﻿@model GameTurnViewModel
+@{
+    ViewData["Title"] = "Game";
+}
+
+<!--<h2>Game</h2>
+<label>Write your guess</label>--->
+@Html.Partial("EnterNumber", new EnterNumberViewModel())
+
+
+<h4>Your number: @Model.MyNumberPlayerOne</h4>
+<table id="t01" style="width:50%">
+    <tr>
+        <th>You</th>
+        <th>Your opponent</th>
+    </tr>
+    <tr>
+        <td>
+            <table id="t02" style="width:100%">
+                <tr>
+                    <th>Guess</th>
+                    <th>Cows</th>
+                    <th>Bulls</th>
+                </tr>
+                @for (int i = Model.SuppositionPlayerOne.Count - 1; i >= 0; i--)
+                {
+                    <tr>
+                        <td>@Model.SuppositionPlayerOne[i] </td>
+                        <td> @Model.SuppositionCowsAndBullsPlayerOne[i][0] </td>
+                        <td>@Model.SuppositionCowsAndBullsPlayerOne[i][1] </td>
+                    </tr>
+                }
+            </table>
+        </td>
+        <td>
+            <table id="t03" style="width:100%">
+                <tr>
+                    <th>Guess</th>
+                    <th>Cows</th>
+                    <th>Bulls</th>
+                </tr>
+                @for (int i = Model.SuppositionPlayerOne.Count - 1; i >= 0; i--)
+                {
+                    <tr>
+                        <td>@Model.SuppositionPlayerTwo[i] </td>
+                        <td> @Model.SuppositionCowsAndBullsPlayerTwo[i][0] </td>
+                        <td>@Model.SuppositionCowsAndBullsPlayerTwo[i][1] </td>
+                    </tr>
+                }
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<!--<h3>Your guesses:</h3>
+
+@for (int i = Model.SuppositionPlayerOne.Count - 1; i >= 0; i--)
+{
+<h5>@Model.SuppositionPlayerOne[i]  -- @Model.SuppositionCowsAndBullsPlayerOne[i][0] cows and @Model.SuppositionCowsAndBullsPlayerOne[i][1] bulls</h5>
+}
+
+<h3>Your opponent guesses:</h3>
+
+@for (int i = Model.SuppositionPlayerTwo.Count - 1; i >= 0; i--)
+{
+<h5>@Model.SuppositionPlayerTwo[i]  -- @Model.SuppositionCowsAndBullsPlayerTwo[i][0] cows and @Model.SuppositionCowsAndBullsPlayerTwo[i][1] bulls</h5>
+}
+
+
+<!--<h5>Your opponent's number: @Model.ComputersNumber</h5>-->

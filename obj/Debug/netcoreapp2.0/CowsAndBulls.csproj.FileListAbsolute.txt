@@ -1,0 +1,11 @@
+C:\Users\Nico\Desktop\Dockerdemo\6\bin\Debug\netcoreapp2.0\CowsAndBulls.deps.json
+C:\Users\Nico\Desktop\Dockerdemo\6\bin\Debug\netcoreapp2.0\CowsAndBulls.runtimeconfig.json
+C:\Users\Nico\Desktop\Dockerdemo\6\bin\Debug\netcoreapp2.0\CowsAndBulls.runtimeconfig.dev.json
+C:\Users\Nico\Desktop\Dockerdemo\6\bin\Debug\netcoreapp2.0\CowsAndBulls.dll
+C:\Users\Nico\Desktop\Dockerdemo\6\bin\Debug\netcoreapp2.0\CowsAndBulls.pdb
+C:\Users\Nico\Desktop\Dockerdemo\6\obj\Debug\netcoreapp2.0\CowsAndBulls.csprojAssemblyReference.cache
+C:\Users\Nico\Desktop\Dockerdemo\6\obj\Debug\netcoreapp2.0\CowsAndBulls.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\Dockerdemo\6\obj\Debug\netcoreapp2.0\CowsAndBulls.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\Dockerdemo\6\obj\Debug\netcoreapp2.0\CowsAndBulls.AssemblyInfo.cs
+C:\Users\Nico\Desktop\Dockerdemo\6\obj\Debug\netcoreapp2.0\CowsAndBulls.dll
+C:\Users\Nico\Desktop\Dockerdemo\6\obj\Debug\netcoreapp2.0\CowsAndBulls.pdb

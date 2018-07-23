@@ -1,0 +1,180 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*margin:auto;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: cornflowerblue;
+    background-position: center;
+    border-color: black;
+    text-anchor: middle;
+    color: black;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+*/
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+
+
+h1{
+    /*color:burlywood;*/
+    color:darkcyan;
+    font-style:oblique;
+    background-color:black;
+    background-position:center;
+    background-size:50%;
+    margin-right:15%;
+}
+
+h3 { 
+    color:darkcyan;
+   /*color:bisque;*/
+    text-shadow: 3px 3px 8px white;
+    text-emphasis-style: filled;
+    font-weight: 500;
+}
+
+h4 {
+    color: darkgreen;
+    font-weight:500;
+    text-shadow: 3px 3px 8px darkcyan;
+}
+
+form{text-emphasis-color:red;
+     text-decoration-color: gray;
+     /*color:ActiveCaption;*/
+}
+
+label{color:darkgreen;
+      text-shadow: 3px 3px 8px darkcyan;
+}
+
+/*
+input, textarea {
+    color: #8f0407;
+    text-shadow: 0px 0px 0px #000;
+    -webkit-text-fill-color: transparent;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: red;
+    text-shadow: none;
+    -webkit-text-fill-color: initial;
+}
+    cursor{color:red}
+*/
+
+
+input[type=number] {
+    
+    background-color: #e6fff7;
+    border-color: azure;
+}
+input[type=number]:hover {
+    color: olive;
+    background-color: #e6fff7;
+    border-color: azure;
+}
+
+input[type=submit] {
+    color:darkcyan;
+    text-shadow:3px 3px 8px white;
+    background-color: #ccffcc;
+    border-color:azure;
+}
+
+    input[type=submit]:hover {
+        color: #006666;
+        text-shadow: 3px 3px 8px white;
+        background-color: #00e6ac;
+        border-color:aquamarine;
+    }
+
+
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+/*TABLES*/
+th, td{
+    /*border:1px solid black;*/
+    border:1px solid white;
+    padding:3px;
+}
+
+#t01 th{
+    background-color:darkcyan;
+    color:aquamarine;
+    text-shadow:3px 3px 8px black;
+}
+
+#t01 tr{
+    background-color:azure;
+}
+/*table#t01 th:nth-child(even) {
+    background-color: aquamarine;
+    color: darkcyan;
+    text-shadow: 3px 3px 3px black;
+}
+
+table#t02 th{
+    background-color: aquamarine;
+    color: darkcyan;
+    text-shadow: 3px 3px 3px black;
+}
+    */
+
+#t02 tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+#t02 td:nth-child(odd) {
+    background-color: bisque;
+}
+
+#t03 tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+
+#t03 td:nth-child(even) {
+    background-color: bisque;
+}
+
+a:link{ color:rebeccapurple;}
+a:visited{color:aquamarine;
+          text-decoration:none;
+}
+a :hover{
+    color: yellow;
+}
+a:active {
+    color: orange;
+}
+
